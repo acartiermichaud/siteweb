@@ -1,0 +1,18 @@
+.tab {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  
+
+  &_active {
+    color: #f06b4b;
+  }
+
+  &_inactive {
+    color: black;
+  }
+}
+
+.tab:hover {
+  color: #f06b4b;
+}

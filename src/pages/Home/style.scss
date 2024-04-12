@@ -1,0 +1,12 @@
+.diaporama {
+  position: relative;
+  width: 100%;
+  height: 900px;
+
+  &_text {
+    position: absolute;
+    width: 700px;
+    top: 550px;
+    left: 100px;
+  }
+}
