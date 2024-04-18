@@ -5,6 +5,10 @@
   height: 900px;
   overflow: hidden;
 
+  @media (max-width: 740px) {
+    height: 560px;
+  }
+
   &_image {
     position: absolute;
     top: 0;
@@ -14,6 +18,10 @@
     object-fit: cover;
     animation: fade-in-out 18s ease infinite 0s;
     opacity: 0;
+
+    @media (max-width: 740px) {
+      height: 560px;
+    }
 
     &_1 {
       animation-delay: 0s
