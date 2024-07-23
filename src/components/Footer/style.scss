@@ -1,0 +1,32 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: #616161;
+  gap: 6px;
+  width: 100%;
+
+  @media (max-width: 550px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &_img {
+    width: 30px;
+    height: auto;
+    padding:0 15px;
+  }
+
+  &_text, &_separator {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &_separator {
+    @media (max-width: 550px) {
+      display: none;
+    }
+  }
+}

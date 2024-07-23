@@ -10,6 +10,7 @@
     justify-content: space-between;
     gap: 70px;
     padding: 30px 60px;
+    box-shadow: rgba(0,0,0,.419608) 0px 14px 26px -12px, rgba(0,0,0,.117647) 0px 4px 23px 0px, rgba(0,0,0,.2) 0px 8px 10px -5px;
 
     @media (max-width: 1345px) {
       flex-direction: column;
@@ -37,9 +38,15 @@
 
   &_logo {
     width: 60px;
+    border-radius: 50%;
+    box-shadow: rgba(0,0,0,.419608) 0px 14px 26px -12px, rgba(0,0,0,.117647) 0px 4px 23px 0px, rgba(0,0,0,.4) 0px 8px 10px -5px;
 
     @media (max-width: 740px) {
       width: 45px;
+    }
+
+    @media (max-width: 375px) {
+      width: 35px;
     }
   }
 
@@ -67,24 +74,36 @@
         font-size: 16px;
       }
 
-      @media (max-width: 500px) {
+      @media (max-width: 550px) {
         width: 250px;
       }
 
-      @media (max-width: 345px) {
+      @media (max-width: 375px) {
         font-size: 14px;
+      }
+
+      @media (max-width: 340px) {
+        width: 140px;
       }
     }
 
-    &_separator {
+    &_separator_1, &_separator_2 {
       font-size: 20px;
       font-weight: 400;
 
       @media (max-width: 740px) {
         font-size: 14px;
       }
+    }
 
-      @media (max-width: 500px) {
+    &_separator_1{
+      @media (max-width: 340px) {
+        display: none;
+      }
+    }
+
+    &_separator_2{
+      @media (max-width: 550px) {
         display: none;
       }
     }
@@ -103,8 +122,12 @@
       right: 20px;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 550px) {
       top : 35px;
+    }
+
+    @media (max-width: 340px) {
+      top : 55px;
     }
   }
 

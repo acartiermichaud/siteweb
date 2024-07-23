@@ -1,17 +1,19 @@
 .phone-link {
   text-decoration: none;
   font-size: 20px;
-  font-weight: 500;
-  color: black;
-  border: black solid 2px;
+  font-weight: 600;
+  color: #67B99A;
+  border: transparent solid 2px;
   border-radius: 25px;
-  padding: 10px 20px;
+  padding: 10px 10px;
+  margin: 0 10px;
   opacity: 1;
   transition: 0.3s;
 
   &:hover {
-    font-weight: 500;
-    border-color: #f06b4b;
-    background-color: rgba(240, 107, 75, .3);
+    color: #248277;
+    border: #248277 solid 2px;
+    background-color: rgba(153, 226, 180, .3);
+    box-shadow: rgba(0,0,0,.419608) 0px 14px 26px -12px, rgba(0,0,0,.117647) 0px 4px 23px 0px, rgba(0,0,0,.2) 0px 8px 10px -5px;
   }
 }
