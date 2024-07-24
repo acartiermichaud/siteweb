@@ -1,17 +1,34 @@
 {
   "files": {
-    "main.css": "/siteweb/static/css/main.1294c64d.css",
-    "main.js": "/siteweb/static/js/main.e8d241e4.js",
-    "static/media/photo2.png": "/siteweb/static/media/photo2.0dab94062c9a041a5191.png",
-    "static/media/photo1.png": "/siteweb/static/media/photo1.249a1cc83095d9b4f26c.png",
-    "static/media/photo3.png": "/siteweb/static/media/photo3.866b909294a57fee1d01.png",
+    "main.css": "/siteweb/static/css/main.4ff20ec1.css",
+    "main.js": "/siteweb/static/js/main.0fe445ac.js",
+    "static/media/photo2.png": "/siteweb/static/media/photo2.95f9f4cf6dc1ba0727cc.png",
+    "static/media/photo3.png": "/siteweb/static/media/photo3.66ab9dfb13ff18cb96a8.png",
+    "static/media/photo4.png": "/siteweb/static/media/photo4.0defa7a344bbc02d833e.png",
+    "static/media/photo6.png": "/siteweb/static/media/photo6.2f61525642665504c412.png",
+    "static/media/hypnose-details.png": "/siteweb/static/media/hypnose-details.877f8a3b086e2a13c616.png",
+    "static/media/photo7.png": "/siteweb/static/media/photo7.e010379607414d52a663.png",
+    "static/media/psych-k-details.png": "/siteweb/static/media/psych-k-details.4a192d6059e340e94b1f.png",
+    "static/media/imageRDV.png": "/siteweb/static/media/imageRDV.ffdf68bc5d49e0901587.png",
+    "static/media/photo5.png": "/siteweb/static/media/photo5.d0ff381040ff63f8d360.png",
+    "static/media/bureau.jpg": "/siteweb/static/media/bureau.f817916b54e1e9eb656c.jpg",
+    "static/media/canape.jpg": "/siteweb/static/media/canape.c6c4c3ac1c8e23192f37.jpg",
+    "static/media/bol.jpg": "/siteweb/static/media/bol.6cd6fe1b11c855c2f74f.jpg",
+    "static/media/photo1.png": "/siteweb/static/media/photo1.ca84f6d27f319535df83.png",
+    "static/media/portrait.png": "/siteweb/static/media/portrait.5c2340d50e9194058915.png",
+    "static/media/exterieur.png": "/siteweb/static/media/exterieur.e542012a33e7ba41098c.png",
+    "static/media/soins.png": "/siteweb/static/media/soins.4dea7b775dbb730af7d8.png",
+    "static/media/hypnose.png": "/siteweb/static/media/hypnose.232eaf789af1f5ff6635.png",
     "static/media/logo.png": "/siteweb/static/media/logo.92c6cfd5fc6e9d8942da.png",
+    "static/media/psych-k.png": "/siteweb/static/media/psych-k.56d52a90c8c924388b2a.png",
+    "static/media/soins-details.jpg": "/siteweb/static/media/soins-details.10c92e6886510f9de64c.jpg",
+    "static/media/orchidee.png": "/siteweb/static/media/orchidee.5fe91234838f8672a7d5.png",
     "index.html": "/siteweb/index.html",
-    "main.1294c64d.css.map": "/siteweb/static/css/main.1294c64d.css.map",
-    "main.e8d241e4.js.map": "/siteweb/static/js/main.e8d241e4.js.map"
+    "main.4ff20ec1.css.map": "/siteweb/static/css/main.4ff20ec1.css.map",
+    "main.0fe445ac.js.map": "/siteweb/static/js/main.0fe445ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.1294c64d.css",
-    "static/js/main.e8d241e4.js"
+    "static/css/main.4ff20ec1.css",
+    "static/js/main.0fe445ac.js"
   ]
 }
