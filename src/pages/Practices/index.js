@@ -10,9 +10,9 @@ import PracticeDetails from '../../components/PracticeDetails'
 import './style.scss'
 
 // Images
-import soinsDetails from '../../images/soins-details.jpg'
-import hypnoseDetails from '../../images/hypnose-details.png'
-import psychkDetails from '../../images/psych-k-details.png'
+import soinsDetails from '../../images/soins-details.webp'
+import hypnoseDetails from '../../images/hypnose-details.webp'
+import psychkDetails from '../../images/psych-k-details.webp'
 
 
 function Practices () {
@@ -42,7 +42,7 @@ function Practices () {
             <PracticeDetails  classname="practice-details" img={soinsDetails} title="Soins énergétiques" text="Les soins énergétiques agissent sur nos corps subtils qui se nourrissent de toutes les énergies invisibles qui entourent notre corps physique, par l'intermédiaire de nos chakras et nos méridiens. Ces soins permettent notamment de nettoyer ces corps subtils, les ré-ancrer et les recentrer sur notre corps physique afin que l'énergie vitale y circule sans entraves. Toutes les problématiques peuvent être abordées sous cet angle en complément des autres approches de la santé. "/>
           </div>
           <div id="hypnose" className='practices_anchor'>
-            <PracticeDetails classname="practice-details practice-details_reverse" img={hypnoseDetails} title="Hypnose humaniste" text="Ce type d'hypnose est une évolution de l'hypnose classique et de l'hypnose éricksonienne, elle donne le rôle principal à la personne en état modifié de conscience. L'hypnothérapeute joue seulement le rôle de guide dans la recherche des causes profondes et des solutions. Cette mét hode permet une véritable prise de conscience: un aspect de vous-même jusque-là inconscient se révèle à vous et prend du sens. Vous avez alors la possibilité de modifier vos croyances limitantes pour qu'elles soutiennent votre santé et votre sérénité."/>
+            <PracticeDetails classname="practice-details practice-details_reverse" img={hypnoseDetails} title="Hypnose humaniste" text="Ce type d'hypnose est une évolution de l'hypnose classique et de l'hypnose éricksonienne, elle donne le rôle principal à la personne en état modifié de conscience. L'hypnothérapeute joue seulement le rôle de guide dans la recherche des causes profondes et des solutions. Cette méthode permet une véritable prise de conscience : un aspect de vous-même jusque-là inconscient se révèle à vous et prend du sens. Vous avez alors la possibilité de modifier vos croyances limitantes pour qu'elles soutiennent votre santé et votre sérénité."/>
           </div>
           <div id="psychk" className='practices_anchor'>
             <PracticeDetails classname="practice-details" img={psychkDetails} title="PSYCH-K" text=". . . . . . . . . . . . . . . .  (à écrire) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."/>

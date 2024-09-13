@@ -2,7 +2,7 @@
 import './style.scss'
 
 // Images
-import orchidee from '../../images/orchidee.png'
+import orchidee from '../../images/orchidee.webp'
 
 
 function Footer () {

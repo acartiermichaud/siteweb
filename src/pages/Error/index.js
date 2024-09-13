@@ -11,12 +11,12 @@ import './style.scss'
 function Error () {
   
   return (
-    <div>
+    <div className='page'>
       <Header activeTab=""/>
       <main>
         <section className="error">
-          <h1>404</h1>
-          <h2>Page non trouvée.</h2>
+          <h1 className="error_title">Erreur 404</h1>
+          <h2 className="error_subtitle">Page non trouvée</h2>
           <Link className="error_link" to="/">Retour à la page d'accueil</Link>
         </section>
       </main>

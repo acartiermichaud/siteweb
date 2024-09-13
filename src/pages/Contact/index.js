@@ -9,10 +9,10 @@ import PhoneLink from '../../components/PhoneLink'
 import './style.scss'
 
 // Images
-import exterieur from '../../images/cabinet/exterieur.png'
-import canape from '../../images/cabinet/canape.jpg'
-import bol from '../../images/cabinet/bol.jpg'
-import bureau from '../../images/cabinet/bureau.jpg'
+import exterieur from '../../images/cabinet/exterieur.webp'
+import canape from '../../images/cabinet/canape.webp'
+import bol from '../../images/cabinet/bol.webp'
+import bureau from '../../images/cabinet/bureau.webp'
 
 
 function Contact () {

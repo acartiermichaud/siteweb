@@ -107,24 +107,28 @@
 
   &_portrait {
     width: 600px;
-    height: auto;
+    height: 600px;
     border-radius: 50%;
     box-shadow: rgba(0,0,0,.419608) 0px 14px 26px -12px, rgba(0,0,0,.117647) 0px 4px 23px 0px, rgba(0,0,0,.2) 0px 8px 10px -5px;
 
     @media (max-width: 1650px) {
       width: 400px;
+      height: 400px;
     }
 
     @media (max-width: 550px) {
       width: 350px;
+      height: 350px;
     }
 
     @media (max-width: 450px) {
       width: 300px;
+      height: 300px;
     }
 
     @media (max-width: 400px) {
       width: 250px;
+      height: 250px;
     }
   }
 
@@ -219,7 +223,7 @@
     height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../../images/imageRDV.png');
+    background-image: url('../../images/imageRDV.webp');
     box-shadow: rgba(0,0,0,.419608) 0px 14px 26px -12px, rgba(0,0,0,.117647) 0px 4px 23px 0px, rgba(0,0,0,.2) 0px 8px 10px -5px;
     margin-bottom: 100px;
 

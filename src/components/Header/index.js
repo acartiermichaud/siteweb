@@ -11,7 +11,7 @@ import Tab from '../../components/Tab'
 import './style.scss'
 
 // Image
-import logo from '../../images/logo.png'
+import logo from '../../images/logo.webp'
 
 
 function Header ({activeTab}) {

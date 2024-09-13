@@ -11,17 +11,17 @@ import PracticeIntro from '../../components/PracticeIntro'
 import './style.scss'
 
 // Images
-import photo1 from '../../images/carousel/photo1.png'
-import photo2 from '../../images/carousel/photo2.png'
-import photo3 from '../../images/carousel/photo3.png'
-import photo4 from '../../images/carousel/photo4.png'
-import photo5 from '../../images/carousel/photo5.png'
-import photo6 from '../../images/carousel/photo6.png'
-import photo7 from '../../images/carousel/photo7.png'
-import portrait from '../../images/portrait.png'
-import soins from '../../images/soins.png'
-import hypnose from '../../images/hypnose.png'
-import psychk from '../../images/psych-k.png'
+import photo1 from '../../images/carousel/photo1.webp'
+import photo2 from '../../images/carousel/photo2.webp'
+import photo3 from '../../images/carousel/photo3.webp'
+import photo4 from '../../images/carousel/photo4.webp'
+import photo5 from '../../images/carousel/photo5.webp'
+import photo6 from '../../images/carousel/photo6.webp'
+import photo7 from '../../images/carousel/photo7.webp'
+import portrait from '../../images/portrait.webp'
+import soins from '../../images/soins.webp'
+import hypnose from '../../images/hypnose.webp'
+import psychk from '../../images/psych-k.webp'
 
 
 function Home () {
@@ -51,11 +51,11 @@ function Home () {
             <img className="presentation_portrait" src={portrait} alt="Alain Cartier-Michaud" loading="lasy"/>
             <div className="presentation_text">
               <p className="presentation_paragraph"> 
-                Je m'appèle Alain Cartier-Michaud, je suis hypnothérapeute, énergéticien et facilitateur PSYCH-K.
+                Je m'appelle Alain Cartier-Michaud, je suis hypnothérapeute, énergéticien et facilitateur PSYCH-K.
               </p>
               <p className="presentation_paragraph"> 
-                Passionné par les méthodes alernatives de santé, j’ai commencé à me former puis à pratiquer il y a une quinzaine d’années.
-                Au travers de mes formations, rencontres, lectures et experiences personnelles, j’ai pris conscience de l’étendue du potentiel que nous avons tous pour mieux comprendre et maîtriser notre vie.
+                Passionné par les méthodes alternatives de santé, j’ai commencé à me former puis à pratiquer il y a une quinzaine d’années.
+                Au travers de mes formations, rencontres, lectures et expériences personnelles, j’ai pris conscience de l’étendue du potentiel que nous avons tous pour mieux comprendre et maîtriser notre vie.
               </p>
               <p className="presentation_paragraph"> 
                 Je vous propose de vous guider vers les racines de vos maux pour en comprendre le sens profond, qu’ils soient physiques ou psychiques, issus de traumatismes passés ou de difficultés relationnelles. Grâce aux prises de conscience qui s'en suivront, je vous aiderai à mobilliser toutes vos ressources pour dépasser vos peurs, repousser vos limites et retrouver votre joie de vivre.
