@@ -32,12 +32,8 @@
   &_paragraph {
     font-size: 20px;
     font-weight: 400px;
-    text-align: justify;
+    text-align: center;
     line-height: 30px;
-
-    @media (max-width: 1230px) {
-      text-align: center;
-    }
 
     @media (max-width: 740px) {
       font-size: 18px;

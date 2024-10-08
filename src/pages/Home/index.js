@@ -48,7 +48,7 @@ function Home () {
         <section className="presentation">
           <h2 className="presentation_title">Bienvenue !</h2>
           <div className='presentation_container'>
-            <img className="presentation_portrait" src={portrait} alt="Alain Cartier-Michaud" loading="lasy"/>
+            <img className="presentation_portrait" src={portrait} alt="portrait" loading="lasy"/>
             <div className="presentation_text">
               <p className="presentation_paragraph"> 
                 Je m'appelle Alain Cartier-Michaud, je suis hypnothérapeute, énergéticien et facilitateur PSYCH-K.
@@ -58,7 +58,7 @@ function Home () {
                 Au travers de mes formations, rencontres, lectures et expériences personnelles, j’ai pris conscience de l’étendue du potentiel que nous avons tous pour mieux comprendre et maîtriser notre vie.
               </p>
               <p className="presentation_paragraph"> 
-                Je vous propose de vous guider vers les racines de vos maux pour en comprendre le sens profond, qu’ils soient physiques ou psychiques, issus de traumatismes passés ou de difficultés relationnelles. Grâce aux prises de conscience qui s'en suivront, je vous aiderai à mobilliser toutes vos ressources pour dépasser vos peurs, repousser vos limites et retrouver votre joie de vivre.
+                Je vous propose de vous guider vers les racines de vos maux pour en comprendre le sens profond, qu’ils soient physiques ou psychiques, issus de traumatismes passés ou de difficultés relationnelles. Grâce aux prises de conscience qui s'en suivront, je vous aiderai à mobilliser toutes vos ressources pour dépasser vos peurs, repousser vos limites, retrouver votre joie de vivre et votre santé.
               </p>
               <ButtonLink classname="button-link basic" path="/contact" text="Contactez-moi"/>
             </div>
@@ -68,12 +68,12 @@ function Home () {
         <section className="practices">
           <h2 className="practices_title">Mes pratiques</h2>
           <p className="practices_paragraph">
-            Je vous propose 3 méthodes complémentaires pour mobiliser votre potentiel de guérison. 
+            Je vous propose 3 méthodes complémentaires. 
           </p>
           <div className="practices_container">
-            <PracticeIntro img={soins} title="Soins énergétiques" text="Les soins énergétiques ont pour objectif d'améliorer la circulation de &#8220;l'énergie de vie&#8221;  dans votre corps physique en levant les blocages ou freins existants, ce qui permet d'augmenter votre potentiel de guérison." path="/pratiques-et-tarifs/soins"/>
-            <PracticeIntro img={hypnose} title="Hypnose humaniste" text="Avec l'hypnose humaniste, je vous guide dans un état de conscience modifiée, léger et dynamique, afin d'aller à la rencontre de la source de votre problème et le résoudre." path="/pratiques-et-tarifs/hypnose"/>
-            <PracticeIntro img={psychk} title="PSYCH-K" text="PSYCH-K est une approche simple et efficace. Elle agit sur les croyances limitantes de votre subconscient qui créent des résistances dans la réalisation de vos objectifs de vie. Avec cette approche, je vous aiderai à lever ces résistances afin de faciliter votre épanouissement." path="/pratiques-et-tarifs/psychk"/>
+            <PracticeIntro img={soins} alt="Illustation soins" title="Soins énergétiques" text="Les soins énergétiques ont pour objectif d'améliorer la circulation de &#8220;l'énergie de vie&#8221;  dans votre corps physique en levant les blocages ou freins existants, ce qui permet d'augmenter votre potentiel de guérison." path="/pratiques-et-tarifs/soins"/>
+            <PracticeIntro img={hypnose} alt="Illustation hypnose" title="Hypnose humaniste" text="Avec l'hypnose humaniste, je vous guide dans un état de conscience modifiée, léger et dynamique, afin d'aller à la rencontre de la source de votre problème et le résoudre." path="/pratiques-et-tarifs/hypnose"/>
+            <PracticeIntro img={psychk} alt="Illustation PSYCH-K" title="PSYCH-K" text="PSYCH-K est une approche simple et efficace. Elle agit sur les croyances limitantes de votre subconscient qui créent des résistances dans la réalisation de vos objectifs de vie ou dans votre parcours de guérison. Avec cette approche, je vous aiderai à intégrer de nouvelles croyances afin de faciliter votre guérison et la réalisation de vos projets." path="/pratiques-et-tarifs/psychk"/>
           </div>
         </section>
 

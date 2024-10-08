@@ -8,11 +8,11 @@ import PropTypes from 'prop-types'
 import './style.scss'
 
 
-function PracticeDetails ({classname, img, title, text}) {
+function PracticeDetails ({classname, img, alt, title, text}) {
   
   return (
     <article className={classname}>
-      <img className="practice-details_img" src={img} alt="Illustartion de la pratique" loading="lasy"></img>
+      <img className="practice-details_img" src={img} alt={alt} loading="lasy"></img>
       <div className="practice-details_container">
         <h3 className="practice-details_title">{title}</h3>
         <p className="practice-details_paragraph">{text}</p>
@@ -25,6 +25,7 @@ function PracticeDetails ({classname, img, title, text}) {
 PracticeDetails.propTypes = {
   classname: PropTypes.string,
   img: PropTypes.string,
+  alt: PropTypes.string,
   title: PropTypes.string,
   text: PropTypes.string
 }

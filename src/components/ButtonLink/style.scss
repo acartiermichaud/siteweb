@@ -15,6 +15,8 @@
 }
 
 .basic {
+  // color: #377a63; for better accessibility
+  // border: #377a63 solid 2px; for better accessibility
   color: #67B99A;
   border: #67B99A solid 2px;
   padding: 10px 20px;
@@ -32,6 +34,7 @@
   padding: 10px 20px;
 
   &:hover {
+    // border-color: #377a63; for better accessibility
     border-color: #67B99A;
     background-color: rgba(153, 226, 180, .3);
   }

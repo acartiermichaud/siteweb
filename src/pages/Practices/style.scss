@@ -38,7 +38,6 @@
 
   &_paragraph {
     width: 100%;
-    text-align: justify;
     line-height: 30px;
     margin-bottom: 10px;
 
@@ -112,7 +111,6 @@
 
   &_category {
     display: flex;
-    text-align: justify;
     line-height: 23px;
     gap: 10px;
     width: auto;
@@ -129,7 +127,7 @@
       justify-content: center;
     }
 
-    @media (max-width: 346px) {
+    @media (max-width: 365px) {
       flex-direction: column;
       gap: 0;
     }
@@ -200,7 +198,6 @@
   }
 
   &_offer {
-    text-align: justify;
     line-height: 30px;
     font-size: 22px;
     font-weight: 600;

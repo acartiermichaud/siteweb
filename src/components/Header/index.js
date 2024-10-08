@@ -31,13 +31,13 @@ function Header ({activeTab}) {
     <header className="header">
       <div className="header_container">
         <div className="header_title-container">
-          <img src={logo} alt="logo" className="header_logo" loading="lasy"/>
+          <img src={logo} alt="icon" className="header_logo" loading="lasy"/>
           <div className="header_title">
             <h1>Alain Cartier-Michaud</h1>
             <p>Hypnothérapeute <span className='header_title_separator_1'>|</span> Énergéticien <span className='header_title_separator_2'>|</span> Facilitateur PSYCH-K</p>
           </div>
         </div>
-        <button className='header_button' onClick={() => openMenu()}><i className="header_menu-icon fa-solid fa-bars"></i></button>
+        <div className='header_button' onClick={() => openMenu()}><i className="header_menu-icon fa-solid fa-bars"></i></div>
         <nav className={displayMenu === false ? 'header_nav' : "header_mobile-nav"}>
           <Tab isActive={activeTab==="home"} path="/" text="Accueil"/>
           <Tab isActive={activeTab==="practices"} path="/pratiques-et-tarifs" text="Pratiques & Tarifs"/>
