@@ -71,8 +71,8 @@ function Home () {
             Je vous propose 3 méthodes complémentaires. 
           </p>
           <div className="practices_container">
-            <PracticeIntro img={soins} alt="Illustation soins" title="Soins énergétiques" text="Les soins énergétiques ont pour objectif d'améliorer la circulation de &#8220;l'énergie de vie&#8221;  dans votre corps physique en levant les blocages ou freins existants, ce qui permet d'augmenter votre potentiel de guérison." path="/pratiques-et-tarifs/soins"/>
             <PracticeIntro img={hypnose} alt="Illustation hypnose" title="Hypnose humaniste" text="Avec l'hypnose humaniste, je vous guide dans un état de conscience modifiée, léger et dynamique, afin d'aller à la rencontre de la source de votre problème et le résoudre." path="/pratiques-et-tarifs/hypnose"/>
+            <PracticeIntro img={soins} alt="Illustation soins" title="Soins énergétiques" text="Les soins énergétiques ont pour objectif d'améliorer la circulation de &#8220;l'énergie de vie&#8221;  dans votre corps physique en levant les blocages ou freins existants, ce qui permet d'augmenter votre potentiel de guérison." path="/pratiques-et-tarifs/soins"/>
             <PracticeIntro img={psychk} alt="Illustation PSYCH-K" title="PSYCH-K" text="PSYCH-K est une approche simple et efficace. Elle agit sur les croyances limitantes de votre subconscient qui créent des résistances dans la réalisation de vos objectifs de vie ou dans votre parcours de guérison. Avec cette approche, je vous aiderai à intégrer de nouvelles croyances afin de faciliter votre guérison et la réalisation de vos projets." path="/pratiques-et-tarifs/psychk"/>
           </div>
         </section>

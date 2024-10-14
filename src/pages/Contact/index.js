@@ -41,7 +41,7 @@ function Contact () {
                 <p className='address_paragraph'>74450 Saint Jean de Sixt</p>
               </div>
               <div className='schedule'>
-                <h3 className='schedule_title'>Horraires</h3>
+                <h3 className='schedule_title'>Horaires</h3>
                 <div className='schedule_tab'>
                   <div className='schedule_line'>
                     <div className='schedule_line_day'>Lundi</div> 
