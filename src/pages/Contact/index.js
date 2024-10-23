@@ -29,7 +29,7 @@ function Contact () {
           <h2 className='contact_title'>Contact</h2>
 
           <div className="contact_phone">
-            <p className='contact_phone_paragraph'>Pour plannifier une séance contactez-moi par téléphonne au</p>
+            <p className='contact_phone_paragraph'>Pour planifier une séance contactez-moi par téléphone au</p>
             <PhoneLink num="+33616231330" text="06 16 23 13 30"/>
           </div>
 
