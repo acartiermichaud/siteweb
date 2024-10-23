@@ -80,7 +80,7 @@ function Home () {
         <div className="contact-link_container">
           <div className='contact-link_text'>
             <h3 className='contact-link_title'>Reprenez votre vie en main !</h3>
-            <ButtonLink classname="button-link img script contact-link_button" path="/contact" text="Contactez-moi pour plannifier une séance"/>
+            <ButtonLink classname="button-link img script contact-link_button" path="/contact" text="Contactez-moi pour planifier une séance"/>
           </div>
         </div>
       </main>

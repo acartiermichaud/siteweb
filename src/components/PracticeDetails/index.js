@@ -16,7 +16,7 @@ function PracticeDetails ({classname, img, alt, title, text}) {
       <div className="practice-details_container">
         <h3 className="practice-details_title">{title}</h3>
         <p className="practice-details_paragraph">{text}</p>
-        <ButtonLink classname="button-link basic" path="/contact" text="Plannifier une séance"/>
+        <ButtonLink classname="button-link basic" path="/contact" text="Planifier une séance"/>
       </div>
     </article>
   )
